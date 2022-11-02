@@ -1,5 +1,174 @@
 
-    
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>PRAVALIKA REDDY ERUPAKA</title>
+</head>
+
+<body>
+    <h3 class="header1"> INTERNET AND WEB SYSTEMS </h3>
+    <p class="para1">Hover image to see my pic</p>
+    <table>
+        <tr>
+            <td>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-back">
+                             <img src="C:\Users\domel\OneDrive\Pictures\Pravalika.jpg" / alt="MY Pic" style="width:200px;height:200px">
+                        </div>
+                        <div class="flip-box-inner">
+                            <h2>Pravalika Reddy Erupaka</h2>
+                            <p>UML ID 02072826</p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td class="col1">
+                <table>
+                    <tr>
+                        <td>
+                            <h2>PRAVALIKA REDDY</h2>
+                        </td>
+                        <td>
+                            <h2>ERUPAKA</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>02072826</h3>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table class="table">
+        <tr class="tr">
+            <td class="td">
+                <h2 style="border-bottom: 1px solid;">Database</h2>
+
+                <ul class="ul">
+                    <li>1.Introduction to Relational Model</li>
+                    <li>2.Introduction to SQL</li>
+                    <li>3.Immediate SQL</li>
+                    <li>4.SQL Overview</li>
+                    <li>5.Database Query/li>
+                </ul>
+            </td>
+
+            <td class="td">
+                <h2 style="border-bottom: 1px solid;">CNS</h2>
+
+                <ol class="ol">
+                    <li>1.Network Security Overview</li>
+                    <li>2.DES</li>
+                    <li>3.AES</li>
+                    <li>4.RSA </li>
+                    <li>5.Key distribution</li>
+                </ol>
+            </td>
+
+
+            <td class="td">
+                <h2 style="border-bottom: 1px solid;">Topics in computer Science</h2>
+
+                <ol class="ol">
+                    <li>Front-end developer </li>
+                    <li>Network Security</li>
+                    <li>Authentication</li>
+                    <li>AI</li>
+                    <li>Cyber </li>
+                </ol>
+            </td>
+        </tr>
+
+
+    </table>
+
+
+
+    <style>
+        .ol{
+            font-weight: bold;
+            font-style: italic;
+            font-display: unset;
+        }
+        .table tr td {
+            border: 2px solid;
+            border-bottom: 2px solid;
+        }
+
+        .col1 {
+            text-align: center;
+        }
+
+        .header1 {
+            text-align: center;
+            font-family: cursive;
+        }
+
+        .para1 {
+            color: blue;
+            text-align: center;
+            font-family: "Lucida Console", "Courier New", monospace;
+
+        }
+
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px;
+        }
+
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+
+        .flip-box-front {
+            background-color: #bbb;
+            color: white;
+        }
+
+
+        .flip-box-back {
+            background-color: pink;
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+
+</body>
+
+</html>
+
     Title: Booking Room for 
     Description: Booking a hotel 
     Nerds name: Pravalika
